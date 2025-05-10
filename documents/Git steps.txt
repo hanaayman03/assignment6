@@ -1,0 +1,20 @@
+steps for git
+
+git init 
+
+pip freeze requirements.txt
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin https://github.com/hanaayman03/lab5_adm.git
+
+git branch -M main
+
+git push -u origin main
+
+git pull origin main --rebase
+
+git push origin main
+
