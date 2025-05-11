@@ -1,8 +1,11 @@
-# Ignore virtual environment
-venv/
+# Virtual environment
+Lib/
+rag-env/
 .env/
-__pycache__/
-*.pyc
 
 # VS Code settings (optional)
 .vscode/
+
+# Bytecode & caches
+__pycache__/
+*.pyc
